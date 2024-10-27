@@ -18,7 +18,7 @@ func main() {
 	h.HandleFunc("/api", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("Hello World"))
 	})
-	h.HandleFunc("/api/products", handler.ProductHandler)
+	h.HandleFunc("/api/product", handler.ProductHandler)
 
 	fmt.Println("HTTP Server running on port 8080")
 	err := s.ListenAndServe()
