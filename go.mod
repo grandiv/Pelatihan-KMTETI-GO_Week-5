@@ -1,4 +1,4 @@
-module week5
+module Pelatihan-KMTETI-GO_Week-5
 
 go 1.23.1
 

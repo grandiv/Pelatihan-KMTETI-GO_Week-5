@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	handler "week5/api"
+	handler "Pelatihan-KMTETI-GO_Week-5/api"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"week5/src/service"
+	"Pelatihan-KMTETI-GO_Week-5/src/service"
 )
 
 func ProductHandler(w http.ResponseWriter, r *http.Request) {
